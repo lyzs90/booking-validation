@@ -15,10 +15,10 @@ source venv/bin/activate  `#venv\Scripts\activate for Windows`
 pip install -r requirements.txt
 
 # run the module
-python validation.py -f tests/bookingvalidation.json
+python validate.py -f tests/bookingvalidation.json
 
 # run with increased iterations (default: 500)
-python validation.py -f tests/bookingvalidation.json -i 1000
+python validate.py -f tests/bookingvalidation.json -i 1000
 ```
 
 ## Testing

@@ -121,6 +121,7 @@ def recursive_sort(sequence, kwargs):
             relocations = len(remainder)
             best_sequence = [index['id'] for index in block]
 
+    best_sequence.extend(remainder)  # just append the remainder
     print("Best Sequence: {}, Relocations: {}, Remainder: {}".format(best_sequence, relocations, remainder))
     
     return best_sequence
