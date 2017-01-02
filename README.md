@@ -26,3 +26,27 @@ python validate.py -f tests/bookingvalidation.json -i 1000
 # run test suite
 pytest
 ```
+
+## Documentation
+
+Use Sphinx to generate documentation for the module.
+
+```bash
+mkdir docs
+sphinx-apidoc -F -o docs ./
+```
+
+Uncomment & edit docs/conf.py:
+
+```bash
+import sys, os
+sys.path.insert(0, os.path.abspath('../'))
+html_theme = "classic"
+```
+
+Generate the html:
+
+```bash
+cd docs
+make html
+```
