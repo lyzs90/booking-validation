@@ -1,6 +1,6 @@
 # Booking Validation Module
 
-This module is for answering [Smove's](https://www.smove.sg/) Booking Validation Problem, which seeks a single permutation for a sequence of car bookings to minimise the total number of relocations. Relocations occur when the car has to be moved for the next booking.
+This module contains helpers to obtain a single permutation for a sequence of car bookings to minimise the total number of relocations. Relocations occur when the car has to be moved for the next booking.
 
 ## Getting started
 
